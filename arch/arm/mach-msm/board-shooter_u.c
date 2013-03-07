@@ -146,6 +146,7 @@ int set_two_phase_freq(int cpufreq);
 	int set_kgsl_3d0_freq(unsigned int freq0, unsigned int freq1);
 	int set_kgsl_2d0_freq(unsigned int freq);
 	int set_kgsl_2d1_freq(unsigned int freq);
+#endif
 
 #ifdef CONFIG_ION_MSM
 static struct platform_device ion_dev;
